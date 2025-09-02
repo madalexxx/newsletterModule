@@ -2,22 +2,35 @@
 class: project
 ---
 
+# contents
+[[#todo]] 
+[[#guidelines]] 
+[[#style guide]] 
 # todo
 
-# contents
-[[#guidelines]] 
-	[[#terms]] 
-	[[#workflow]] 
-	[[#status indicators]] 
-[[#style guide]] 
-	[[#palettes]] 
-		[[#primary]] 
-		[[#brown tetradic]] 
-		[[#tan tetradic]] 
-		[[#green tetradic]] 
-		[[#dark blue tetradic]] 
-	[[#fonts]] 
+# style guide
+[[#palettes]] 
+	[[#primary]] 
+[[#fonts]] 
+## palettes
+### primary
+```palette
+#8230ff, #e3d0ff, #ff3046
+```
+
+```palette
+#8230ff, #e3d0ff, #ff3046
+{ "gradient": true }
+```
+
+## fonts
+Primary: Requiem
+Secondary: Avenir
+Accent: 
 # guidelines
+[[#terms]] 
+[[#workflow]] 
+[[#status indicators]] 
 ## terms
 
 > [!info]- article
@@ -77,19 +90,3 @@ For articles, the status progression is as follows:
 
 For editions, the status progression is as follows:
 	backlog > active > processing > ready > published
-# style guide
-## palettes
-### primary
-```palette
-#8230ff, #e3d0ff, #ff3046
-```
-
-```palette
-#8230ff, #e3d0ff, #ff3046
-{ "gradient": true }
-```
-
-## fonts
-Primary: Requiem
-Secondary: Avenir
-Accent: 
